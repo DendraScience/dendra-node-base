@@ -1,0 +1,24 @@
+{
+  "name": "dendra-node-base",
+  "version": "1.0.0",
+  "description": "Dendra Node base image with NPM dependencies for job scripts.",
+  "license": "BSD-2-Clause-FreeBSD",
+  "author": "J. Scott Smith <scott@newleafsolutionsinc.com>",
+  "main": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DendraScience/dendra-node-base.git"
+  },
+  "scripts": {
+    "start": "node ./dist/main.js"
+  },
+  "engines": {
+    "node": ">=14.17"
+  },
+  "dependencies": {
+    "agentkeepalive": "^4.1.4",
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
